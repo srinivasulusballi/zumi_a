@@ -11,7 +11,7 @@ sbit EN = P2^1;
 void delay()
 {
     int i, j;
-    for(i = 0; i < 100; i++)
+    for(i = 0; i < 101; i++)
         for(j = 0; j < 10; j++);
 }
 
