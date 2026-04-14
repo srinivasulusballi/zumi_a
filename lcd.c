@@ -13,6 +13,7 @@ void delay()
     int i, j;
     for(i = 0; i < 101; i++)
         for(j = 0; j < 10; j++);
+    printf("ok");
 }
 
 // Send command
